@@ -42,10 +42,10 @@ __Key Findings:__
   - The variable importance plot generated from the random forest shows that the top three attributes for predicting heart attack risk are Cholesterol, Age, and SystolicBP.
 - PCA was able to show that >50% of variance could be explained by Principal Components 1-5.
   -   Attributes in Principal Components 1-5 with magnitude >.3:
-    -   PC1: strong positive associations for SystolicBP and ratio, strong negative association for DiastolicBP
-    -   PC2: strong positive associations for Cholesterol and Exercise, strong negative association for Stress.Level
-    -   PC3: strong positive associations for Sleep.Hours.Per.Day, strong negative association for Exercise.Hours.Per.Week and Triglycerides
-    -   PC4: strong positive associations for BMI, SystolicBP, and DiastolicBP
-    -   PC5: strong negative association for Cholesterol, Exercise.Hours.Per.Week, Stress.Level, and Physical.Activity.Days.Per.Week
+      -   PC1: strong positive associations for SystolicBP and ratio, strong negative association for DiastolicBP
+      -   PC2: strong positive associations for Cholesterol and Exercise, strong negative association for Stress.Level
+      -   PC3: strong positive associations for Sleep.Hours.Per.Day, strong negative association for Exercise.Hours.Per.Week and Triglycerides
+      -   PC4: strong positive associations for BMI, SystolicBP, and DiastolicBP
+      -   PC5: strong negative association for Cholesterol, Exercise.Hours.Per.Week, Stress.Level, and Physical.Activity.Days.Per.Week
 -  K-means analysis using Principal Components 1-5 generated an adjusted random index of .66 indicating substantial agreement between the unsupervised clusters and the risk labels.
-  -  This suggests that the risk classifications are supported by meaningful patterns in the underlying patient health data rather than being randomly assigned.
+    -  This suggests that the risk classifications are supported by meaningful patterns in the underlying patient health data rather than being randomly assigned.
