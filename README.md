@@ -40,7 +40,7 @@ __Key Findings:__
 
 - Random Forest analysis was able to predict heart attack risk with a 91% accuracy.
   - The variable importance plot generated from the random forest shows that the top three attributes for predicting heart attack risk are Cholesterol, Age, and SystolicBP.
-- PCA was able to show that >50% of variance could be explaned with Principal Components 1-5.
+- PCA was able to show that >50% of variance could be explained by Principal Components 1-5.
   -   Attributes in Principal Components 1-5 with magnitude >.3:
     -   PC1: strong positive associations for SystolicBP and ratio, strong negative association for DiastolicBP
     -   PC2: strong positive associations for Cholesterol and Exercise, strong negative association for Stress.Level
