@@ -24,7 +24,7 @@ Analysis:
 - Exploratory Data Analysis
 - Decision Trees
 - Random Forests
-- Principal Component Analsis
+- Principal Component Analysis
 - K-means
 - Model Evaluation and Validation
 
